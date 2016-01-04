@@ -12,3 +12,9 @@ player switchMove "AmovPercMstpSrasWrflDnon_AmovPercMstpSlowWrflDnon";
 
 // Have a nice flashlight for night-ops
 player addItem "ACE_Flashlight_XL50";
+
+// Disable G-forces on the pilots
+player setVariable ["ACE_GForceCoef", 0];
+
+// Allow for suicide -- because fuck life
+murshun_easywayout_canSuicide = true;
